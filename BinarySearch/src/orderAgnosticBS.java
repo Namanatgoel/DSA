@@ -5,7 +5,7 @@ public class orderAgnosticBS {
         int[] arr = new int[]{
                 -545, -6, 0, 1, 4, 6, 8, 90, 92, 94, 109, 3453534
         };
-        int target = 0;
+        int target  = 0;
         int ans = orderAgnostic(arr, target);
         System.out.println(ans);
     }
