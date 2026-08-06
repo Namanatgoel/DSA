@@ -9,7 +9,7 @@ public class prod_of_digits {
     static int prod_dig(int num){
         //if one digit is remaining, return that digit
         if (num%10 == num){
-            return num;
+            return num;z
         }
         return prod_dig(num/10) * (num % 10);
     }
